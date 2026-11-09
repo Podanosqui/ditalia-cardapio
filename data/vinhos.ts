@@ -1,0 +1,46 @@
+import type { Produto } from '@/lib/types'
+
+export const vinhos: Produto[] = [
+  {
+    id: 'vinho-chianti',
+    nome: 'Chianti Classico DOCG',
+    categoria: 'vinhos',
+    descricao: 'Tinto toscano encorpado, perfeito para pizzas de sabor intenso.',
+    ingredientes: ['Uva Sangiovese', 'Região: Toscana', 'Teor: 13,5%'],
+    preco: 189,
+    imagem: '/images/vinho.png',
+    destaque: true,
+    disponivel: true,
+  },
+  {
+    id: 'vinho-montepulciano',
+    nome: "Montepulciano d'Abruzzo",
+    categoria: 'vinhos',
+    descricao: 'Frutado e macio, harmoniza com massas e queijos.',
+    ingredientes: ['Uva Montepulciano', 'Região: Abruzzo', 'Teor: 13%'],
+    preco: 149,
+    imagem: '/images/vinho.png',
+    disponivel: true,
+  },
+  {
+    id: 'vinho-prosecco',
+    nome: 'Prosecco Extra Dry',
+    categoria: 'vinhos',
+    descricao: 'Espumante leve e elegante para brindar a noite.',
+    ingredientes: ['Uva Glera', 'Região: Vêneto', 'Teor: 11%'],
+    preco: 129,
+    imagem: '/images/vinho.png',
+    novo: true,
+    disponivel: true,
+  },
+  {
+    id: 'vinho-barolo',
+    nome: 'Barolo DOCG',
+    categoria: 'vinhos',
+    descricao: 'O "rei dos vinhos" — estruturado, complexo e memorável.',
+    ingredientes: ['Uva Nebbiolo', 'Região: Piemonte', 'Teor: 14%'],
+    preco: 349,
+    imagem: '/images/vinho.png',
+    disponivel: true,
+  },
+]

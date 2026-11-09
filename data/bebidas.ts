@@ -1,0 +1,46 @@
+import type { Produto } from '@/lib/types'
+
+export const bebidas: Produto[] = [
+  {
+    id: 'beb-soda-italiana',
+    nome: 'Soda Italiana',
+    categoria: 'bebidas',
+    descricao: 'Refrescante soda artesanal com xarope de frutas.',
+    ingredientes: ['Água com gás', 'Xarope de frutas', 'Gelo', 'Limão'],
+    preco: 14,
+    imagem: '/images/bebida.png',
+    destaque: true,
+    disponivel: true,
+  },
+  {
+    id: 'beb-refrigerante',
+    nome: 'Refrigerante Lata',
+    categoria: 'bebidas',
+    descricao: 'Coca-Cola, Guaraná ou Sprite — 350ml.',
+    ingredientes: ['Refrigerante 350ml'],
+    preco: 8,
+    imagem: '/images/bebida.png',
+    disponivel: true,
+  },
+  {
+    id: 'beb-suco',
+    nome: 'Suco Natural',
+    categoria: 'bebidas',
+    descricao: 'Laranja, abacaxi com hortelã ou limonada suíça.',
+    ingredientes: ['Fruta fresca', 'Gelo'],
+    preco: 12,
+    imagem: '/images/bebida.png',
+    novo: true,
+    disponivel: true,
+  },
+  {
+    id: 'beb-agua',
+    nome: 'Água Mineral',
+    categoria: 'bebidas',
+    descricao: 'Com ou sem gás — 500ml.',
+    ingredientes: ['Água mineral 500ml'],
+    preco: 6,
+    imagem: '/images/bebida.png',
+    disponivel: true,
+  },
+]

@@ -1,0 +1,51 @@
+import type { Produto } from '@/lib/types'
+
+export const esfirras: Produto[] = [
+  {
+    id: 'esf-carne',
+    nome: 'Esfirra de Carne',
+    categoria: 'esfirras',
+    ingredientes: ['Carne bovina', 'Cebola', 'Tomate', 'Limão', 'Temperos árabes'],
+    preco: 9,
+    imagem: '/images/esfirra.png',
+    destaque: true,
+    disponivel: true,
+  },
+  {
+    id: 'esf-queijo',
+    nome: 'Esfirra de Queijo',
+    categoria: 'esfirras',
+    ingredientes: ['Mozzarella', 'Orégano'],
+    preco: 9,
+    imagem: '/images/esfirra.png',
+    disponivel: true,
+  },
+  {
+    id: 'esf-frango',
+    nome: 'Esfirra de Frango com Catupiry',
+    categoria: 'esfirras',
+    ingredientes: ['Frango desfiado', 'Catupiry'],
+    preco: 10,
+    imagem: '/images/esfirra.png',
+    novo: true,
+    disponivel: true,
+  },
+  {
+    id: 'esf-calabresa',
+    nome: 'Esfirra de Calabresa',
+    categoria: 'esfirras',
+    ingredientes: ['Calabresa', 'Cebola', 'Mozzarella'],
+    preco: 10,
+    imagem: '/images/esfirra.png',
+    disponivel: true,
+  },
+  {
+    id: 'esf-doce',
+    nome: 'Esfirra de Chocolate',
+    categoria: 'esfirras',
+    ingredientes: ['Chocolate belga', 'Açúcar de confeiteiro'],
+    preco: 12,
+    imagem: '/images/pizza-chocolate.png',
+    disponivel: false,
+  },
+]
